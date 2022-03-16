@@ -7,7 +7,7 @@ export const user = Router();
 
 
 user.get("/routes/auth",(req,res)=>{
-    res.send("씨발dd");
+    res.send("ㅇㅇㅇ");
 });
 
 

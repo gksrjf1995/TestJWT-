@@ -14,7 +14,7 @@ mongoose.connect(process.env.DB_URL,()=>{
 console.log(process.env.TEST_VALUE);
 
 app.get("/",(req,res)=>{
-    res.send("시발되라");
+    res.send("되라라");
 });
 
 app.use("/api/user",router);
